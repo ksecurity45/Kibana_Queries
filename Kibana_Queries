@@ -1,0 +1,9 @@
+# Delete data from index.
+
+POST /httpx1/_delete_by_query
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
