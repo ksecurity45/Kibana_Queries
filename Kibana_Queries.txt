@@ -7,3 +7,8 @@ POST /httpx1/_delete_by_query
   }
 }
 
+
+
+# Send data 
+
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/my_index/_bulk" --data-binary "@/path/to/your/desktop/data.json"
